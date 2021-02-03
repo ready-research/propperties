@@ -1,17 +1,17 @@
-# propper
+# propperties
 
 A tool for getting and setting object properties using dot notation, path notation, and arrays to speficy properties.
 
 ## Installation
 
 ```
-npm install propper
+npm install propperties
 ```
 
 ## Usage
 
 ``` javascript
-var prop = require('propper')
+var prop = require('propperties')
 
 var obj = {a: 1, b: {c: 'hello'}};
 
