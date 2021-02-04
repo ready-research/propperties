@@ -31,7 +31,7 @@ function prop(obj, path, value) {
         nextTarget = target[key] = {};
       }      
     }
-
+    if (key == '__proto__' || key == 'prototype' || key == 'constructor') return {};
     target = nextTarget;
     key = parts.pop();
   }  
